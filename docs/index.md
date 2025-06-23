@@ -6,12 +6,12 @@ description: "Learn to leverage Claude Code for computational biology research w
 
 # Master AI-Assisted Bioinformatics
 
-**Transform your computational biology research with Claude Code** - the AI assistant that understands your data, your workflows, and your research goals.
+**Enhance your computational biology research with Claude Code** - an AI assistant designed to help with bioinformatics workflows and analysis tasks.
 
 ## Why Claude Code for Bioinformatics?
 
-### 🎯 **Immediate Results**
-Stop memorizing command syntax. Ask for what you need in plain English and get working code instantly.
+### 🎯 **Natural Language Interface**
+Reduce reliance on memorizing command syntax. Describe analysis goals in natural language and receive appropriate bioinformatics code.
 
 ### 🔬 **Research-Ready Workflows** 
 From quality control to publication-quality analysis - complete pipelines designed by bioinformatics experts.
@@ -52,7 +52,7 @@ Standardize workflows across your lab with shared commands and consistent docume
 
 ---
 
-## Get Started in 5 Minutes
+## Get Started
 
 ### 1. **Install Claude Code**
 ```bash

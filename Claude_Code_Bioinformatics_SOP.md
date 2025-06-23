@@ -4,12 +4,12 @@
 
 This SOP provides a standardized approach for using Claude Code to enhance bioinformatics workflows. By following these procedures, you'll leverage AI assistance while maintaining scientific rigor and reproducibility.
 
-**Time to implement**: 30 seconds (automated setup)  
-**Immediate benefits**: Zero-friction context loading, instant project creation, consistent workflows
+**Time to implement**: Minimal setup time with automated script  
+**Key benefits**: Automated context loading, structured project creation, consistent workflows
 
 ---
 
-## 🚀 Quick Start Checklist (30 seconds)
+## 🚀 Quick Start Checklist
 
 ### Automated Setup (Recommended)
 ```bash
@@ -24,7 +24,7 @@ cd my-analysis
 claude
 ```
 
-✅ **Setup Complete** - Context documents automatically loaded, ready for analysis!
+✅ **Setup Complete** - Context documents automatically loaded for all new projects
 
 ### Manual Setup (Legacy Approach)
 If you prefer manual setup or the automated script doesn't work:
@@ -389,8 +389,8 @@ Ask Claude Code: "The analysis failed because [tool] wasn't found. Please check 
 ## 📈 Success Metrics
 
 ### Immediate Benefits (First Week)
-- ✅ Faster analysis setup (50% time reduction)
-- ✅ Fewer command-line errors
+- ✅ Reduced time for analysis setup
+- ✅ Fewer command-line syntax errors
 - ✅ More consistent workflows
 - ✅ Better documentation
 

@@ -1,12 +1,12 @@
 # Claude Code for Bioinformatics
 
-**Transform your computational biology research with AI-assisted workflows**
+**Enhance your computational biology research with AI-assisted workflows**
 
 [![GitHub stars](https://img.shields.io/github/stars/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/network)
 [![GitHub issues](https://img.shields.io/github/issues/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/issues)
 
-## 🚀 Quick Start (30 Seconds)
+## 🚀 Quick Start
 
 ### One-Command Setup
 ```bash
@@ -14,19 +14,29 @@ curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/
 ```
 
 ### What This Gives You
-- **30-second global setup** - context automatically loaded forever
-- **AI assistant with deep bioinformatics knowledge** 
-- **Instant project creation** with `claude-bio new`
-- **Zero copy-pasting** - context documents automatically available
-- **Quality assurance protocols** built-in
+- **Automated global setup** - context automatically loaded in all projects
+- **AI assistant with bioinformatics domain knowledge** 
+- **Project creation tools** with `claude-bio new`
+- **Automated context loading** - no manual document copying required
+- **Quality assurance protocols** based on established field standards
 
-### Immediate Benefits
-✅ Stop memorizing command syntax  
-✅ Stop copy-pasting context documents  
-✅ Reduce analysis errors by 80%  
-✅ Accelerate workflow development  
-✅ Improve team collaboration  
-✅ Maintain scientific rigor  
+### Key Features
+✅ Natural language interface for complex bioinformatics commands  
+✅ Automated context document management  
+✅ Built-in quality control standards and best practices  
+✅ Structured workflow templates  
+✅ Team collaboration tools  
+✅ Reproducible analysis documentation  
+
+## 📖 Essential Reading
+
+### [**→ Claude Code Best Practices**](claude-code-best-practices.md) - Start Here First
+**Learn general Claude Code usage before bioinformatics-specific workflows**
+- Project organization and CLAUDE.md setup
+- Essential commands and configuration
+- Team collaboration patterns
+- Advanced techniques and optimization
+- **Recommended**: Read this first to understand Claude Code fundamentals
 
 ## 📋 Complete Standard Operating Procedure
 
@@ -92,10 +102,10 @@ samtools index sample1.bam
 
 ### After: One Setup + Natural Language
 ```bash
-# One-time setup (30 seconds)
+# One-time setup
 curl -fsSL [setup-url] | bash
 
-# Create project (5 seconds)
+# Create project
 claude-bio new rnaseq my-analysis
 cd my-analysis
 
@@ -149,16 +159,13 @@ Claude Code provides:
 - 🔄 **Reproducible analyses**
 - 👥 **Knowledge sharing** across team members
 
-## 🌟 Success Stories
+## 🌟 Key Benefits
 
-> *"We reduced our RNA-seq analysis time from 2 weeks to 2 days. The automated quality control caught issues we would have missed."*  
-> **— Dr. Sarah Chen, Computational Biology Core**
-
-> *"Our entire lab now uses the same workflows. Code reviews are faster and our analyses are more reproducible."*  
-> **— Prof. Michael Rodriguez, Genomics Department**
-
-> *"As a wet lab biologist, I can now run my own bioinformatics analyses confidently."*  
-> **— Dr. Amanda Foster, Postdoctoral Researcher**
+- **Standardized workflows** ensure consistent analysis approaches across team members
+- **Automated quality control** helps identify common data quality issues based on established field standards
+- **Reduced learning curve** for researchers new to bioinformatics  
+- **Improved reproducibility** through documented workflows and best practices
+- **Natural language interface** reduces need to memorize complex command syntax
 
 ## 📖 Documentation
 
@@ -262,7 +269,7 @@ If you use this SOP in your research, please cite:
 
 ---
 
-**Ready to transform your bioinformatics workflows?** 
+**Ready to enhance your bioinformatics workflows?** 
 
 **Quick Start**: `curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master/setup.sh | bash`
 
