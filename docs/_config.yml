@@ -1,0 +1,217 @@
+# Site Configuration
+title: "Claude for Bioinformatics"
+description: "Master AI-Assisted Bioinformatics: A comprehensive educational resource for using Claude Code in computational biology research"
+url: "https://shandley.github.io"
+baseurl: "/claude-for-bioinformatics"
+
+# Author Information
+author:
+  name: "Scott Handley & Contributors"
+  email: "shandley@wustl.edu"
+  github: "shandley"
+
+# Repository Information
+repository: "shandley/claude-for-bioinformatics"
+github_username: "shandley"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-toc
+
+# Kramdown Configuration
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+    span:
+      line_numbers: false
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Navigation Menu
+header_pages:
+  - getting-started/index.md
+  - tracks/index.md
+  - workflows/index.md
+  - examples/index.md
+  - reference/index.md
+  - community/index.md
+
+# Collections
+collections:
+  workflows:
+    output: true
+    permalink: /:collection/:name/
+  examples:
+    output: true
+    permalink: /:collection/:name/
+  tracks:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Claude for Bioinformatics Team"
+  - scope:
+      path: ""
+      type: "workflows"
+    values:
+      layout: "workflow"
+  - scope:
+      path: ""
+      type: "examples"
+    values:
+      layout: "example"
+  - scope:
+      path: ""
+      type: "tracks"
+    values:
+      layout: "track"
+
+# Social Links
+social_links:
+  github: "shandley/claude-for-bioinformatics"
+  twitter: "claude_bio"
+
+# Google Analytics (add your tracking ID)
+google_analytics: "UA-XXXXXXXXX-X"
+
+# Search
+search_enabled: true
+
+# Comments (using Disqus)
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "claude-bioinformatics"
+
+# Content Settings
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# Time Zone
+timezone: America/Chicago
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - "*.gemspec"
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - webpack.config.js
+
+# Include files
+include:
+  - _pages
+  - .htaccess
+
+# Sass Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# File Processing
+keep_files:
+  - .git
+  - .svn
+
+# Liquid Options
+liquid:
+  error_mode: warn
+
+# Security
+safe: true
+
+# Custom Variables
+educational_tracks:
+  - name: "Beginner"
+    path: "/tracks/beginner/"
+    description: "Start your journey with Claude Code and bioinformatics basics"
+    icon: "🌱"
+  - name: "Intermediate" 
+    path: "/tracks/intermediate/"
+    description: "Build workflows and automate your analysis pipelines"
+    icon: "🔧"
+  - name: "Advanced"
+    path: "/tracks/advanced/"
+    description: "Master complex analyses and lead your team"
+    icon: "🚀"
+
+workflow_categories:
+  - name: "RNA-seq Analysis"
+    path: "/workflows/rnaseq/"
+    description: "Complete RNA sequencing analysis workflows"
+    icon: "🧬"
+  - name: "Variant Calling"
+    path: "/workflows/variants/"
+    description: "Comprehensive variant detection and analysis"
+    icon: "🔍"
+  - name: "Single-Cell"
+    path: "/workflows/single-cell/"
+    description: "Single-cell RNA-seq analysis pipelines"
+    icon: "🔬"
+  - name: "Specialized"
+    path: "/workflows/specialized/"
+    description: "ChIP-seq, ATAC-seq, metagenomics, and more"
+    icon: "⚡"
+
+# Feature Flags
+features:
+  search: true
+  comments: true
+  analytics: true
+  social_sharing: true
+  print_friendly: true
+  mobile_nav: true
+
+# SEO Settings
+lang: en_US
+locale: en_US
+
+# Performance
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Development Settings
+livereload: true
+incremental: false
+profile: false
+
+# Plugin Settings
+feed:
+  excerpt_only: true
+
+sitemap:
+  file: "/sitemap.xml"
+
+seo:
+  type: "WebSite"
