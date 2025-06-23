@@ -126,10 +126,9 @@ download_context() {
         # Use git clone for better tracking
         git clone --depth 1 "$REPO_URL.git" temp_repo
         
-        # Copy context documents
-        cp temp_repo/bioinformatics-context-reference-guide.md context/
-        cp temp_repo/claude-code-best-practices.md context/
-        cp temp_repo/bioinformatics-one-liners.md context/
+        # Copy bioinformatics-specific context documents
+        cp temp_repo/context/bioinformatics-context-reference-guide.md context/
+        cp temp_repo/context/bioinformatics-one-liners.md context/
         
         # Copy project templates
         cp -r temp_repo/project-templates/* templates/
@@ -145,13 +144,11 @@ download_context() {
         BASE_URL="https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master"
         
         if [[ "$DOWNLOADER" == "curl" ]]; then
-            curl -fsSL "$BASE_URL/bioinformatics-context-reference-guide.md" -o context/bioinformatics-context-reference-guide.md
-            curl -fsSL "$BASE_URL/claude-code-best-practices.md" -o context/claude-code-best-practices.md
-            curl -fsSL "$BASE_URL/bioinformatics-one-liners.md" -o context/bioinformatics-one-liners.md
+            curl -fsSL "$BASE_URL/context/bioinformatics-context-reference-guide.md" -o context/bioinformatics-context-reference-guide.md
+            curl -fsSL "$BASE_URL/context/bioinformatics-one-liners.md" -o context/bioinformatics-one-liners.md
         else
-            wget -q "$BASE_URL/bioinformatics-context-reference-guide.md" -O context/bioinformatics-context-reference-guide.md
-            wget -q "$BASE_URL/claude-code-best-practices.md" -O context/claude-code-best-practices.md
-            wget -q "$BASE_URL/bioinformatics-one-liners.md" -O context/bioinformatics-one-liners.md
+            wget -q "$BASE_URL/context/bioinformatics-context-reference-guide.md" -O context/bioinformatics-context-reference-guide.md
+            wget -q "$BASE_URL/context/bioinformatics-one-liners.md" -O context/bioinformatics-one-liners.md
         fi
         
         # Save version info
@@ -394,10 +391,9 @@ EOF
 verify_installation() {
     log_info "Verifying installation..."
     
-    # Check context files
+    # Check bioinformatics-specific context files
     local context_files=(
         "$CONTEXT_DIR/context/bioinformatics-context-reference-guide.md"
-        "$CONTEXT_DIR/context/claude-code-best-practices.md"
         "$CONTEXT_DIR/context/bioinformatics-one-liners.md"
     )
     

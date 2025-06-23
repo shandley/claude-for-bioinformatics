@@ -2,7 +2,9 @@
 
 ## How to Use These Documents with Claude Code
 
-This guide explains how to effectively provide the three context documents to Claude Code for optimal bioinformatics assistance.
+This guide explains how to effectively provide the bioinformatics context documents to Claude Code for optimal assistance.
+
+**Note**: With the automated setup, this manual approach is no longer needed! This guide is maintained for legacy/manual setups.
 
 ---
 
@@ -27,11 +29,7 @@ DOCUMENT 1: BIOINFORMATICS CONTEXT REFERENCE
 ===========================================
 [Paste entire content of bioinformatics-context-reference-guide.md here]
 
-DOCUMENT 2: CLAUDE CODE BEST PRACTICES  
-========================================
-[Paste entire content of claude-code-best-practices.md here]
-
-DOCUMENT 3: BIOINFORMATICS ONE-LINERS
+DOCUMENT 2: BIOINFORMATICS ONE-LINERS
 ====================================
 [Paste entire content of bioinformatics-one-liners.md here]
 
@@ -92,28 +90,7 @@ Relevant sections to highlight:
 "According to the quality control standards in my context document, what thresholds should I use for [specific QC metric]?"
 ```
 
-### **2. claude-code-best-practices.md**
-
-**Primary Purpose**: Teaches Claude Code how to structure bioinformatics projects and workflows
-
-**Key Sections for Project Setup**:
-- Setup & Configuration (lines 15-57)
-- Essential Files & Dotfiles (lines 59-178)
-- Project Structure & Organization (lines 247-279)
-
-**Key Sections for Workflow Development**:
-- Core Features & Commands (lines 180-246)
-- Advanced Techniques (lines 280-348)
-- Team Collaboration (lines 349-385)
-
-**Usage Pattern**:
-```
-"Following the project organization patterns from the Claude Code best practices I provided, set up a new RNA-seq analysis project."
-
-"Based on the custom command examples in my context, create a slash command for quality control analysis."
-```
-
-### **3. bioinformatics-one-liners.md**
+### **2. bioinformatics-one-liners.md**
 
 **Primary Purpose**: Provides specific command examples and patterns
 

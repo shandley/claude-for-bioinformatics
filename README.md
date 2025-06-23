@@ -41,15 +41,17 @@ curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/
 
 ## 📚 Context Documents (The Secret Sauce)
 
-Provide Claude Code with expert-level bioinformatics knowledge:
+The setup script automatically provides Claude Code with bioinformatics domain expertise:
 
 ### [**→ Context Document Usage Guide**](Context_Document_Usage_Guide.md)
 Complete instructions for maximizing Claude Code effectiveness (legacy approach)
 
-### Core Knowledge Documents (Auto-loaded after setup)
+### Bioinformatics Context Documents (Auto-loaded after setup)
 - [**Bioinformatics Context Reference**](context/bioinformatics-context-reference-guide.md) - File formats, tools, quality standards
-- [**Claude Code Best Practices**](context/claude-code-best-practices.md) - Project organization and advanced techniques
 - [**Bioinformatics One-Liners**](context/bioinformatics-one-liners.md) - Command examples and patterns
+
+### General Claude Code Documentation
+- [**Claude Code Best Practices**](claude-code-best-practices.md) - General usage patterns and advanced techniques (not bioinformatics-specific)
 
 ## 🧬 Project Templates
 
