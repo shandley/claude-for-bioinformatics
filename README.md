@@ -38,11 +38,17 @@ curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/
 - Team collaboration patterns
 - **⚡ Start here if you're new to Claude Code**
 
-## 📋 Bioinformatics Standard Operating Procedure
+## 📚 Learning Paths
 
-### [**→ Claude Code Bioinformatics SOP**](Claude_Code_Bioinformatics_SOP.md)
+### 🎯 **New to Claude Code?** Start Here:
+1. **[Claude Code Best Practices](claude-code-best-practices.md)** - Essential foundation
+2. **[First RNA-seq Analysis Tutorial](guided-tutorials/01-first-rnaseq-analysis/)** - Hands-on learning
+3. **[Enhanced Educational Plan](ENHANCED_EDUCATIONAL_PLAN.md)** - Complete learning roadmap
 
-**Ready-to-implement bioinformatics workflow guide** (requires Claude Code setup above). Includes:
+### 📋 **Ready to Implement?** Use Our SOP:
+**[→ Claude Code Bioinformatics SOP](Claude_Code_Bioinformatics_SOP.md)**
+
+**Production-ready workflow guide** for immediate lab adoption:
 - Installation and setup checklist
 - Session workflow protocols  
 - Safety and validation procedures
@@ -222,15 +228,17 @@ We welcome contributions from the bioinformatics community!
 - Essential project templates
 - Ready for immediate lab adoption
 
-### 🚧 **Phase 2: Validation & Refinement** (IN PROGRESS)  
-- Real-world testing with research groups
-- Community feedback integration
-- Workflow optimization
+### 🚧 **Phase 2: Educational Enhancement** (IN PROGRESS)  
+- Progressive learning modules building on SOP foundation
+- Hands-on tutorials with real datasets
+- Guided walkthroughs for common workflows
+- Community learning features
 
-### 📅 **Phase 3: Educational Site** (PLANNED)
-- Comprehensive learning platform
-- Interactive tutorials
-- Community collaboration features
+### 📅 **Phase 3: Advanced Learning** (PLANNED)
+- Advanced customization tutorials
+- Team collaboration workflows
+- Community contribution systems
+- Video demonstrations and interactive content
 
 ## 💬 Support & Community
 
