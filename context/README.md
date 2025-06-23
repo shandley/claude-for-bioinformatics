@@ -19,6 +19,30 @@ This directory contains domain-specific knowledge that gets automatically loaded
 - Tool-specific command patterns
 - Troubleshooting one-liners
 
+### [bioinformatics-troubleshooting-guide.md](bioinformatics-troubleshooting-guide.md)
+**Purpose**: Error diagnosis and problem-solving knowledge
+- Common error messages and solutions
+- Memory and resource optimization
+- Tool-specific failure patterns
+- Performance troubleshooting
+- Recovery procedures
+
+### [bioinformatics-computational-resources.md](bioinformatics-computational-resources.md)
+**Purpose**: Resource planning and optimization guidance
+- Memory requirements by tool and data size
+- Runtime estimates and scaling
+- HPC job submission best practices
+- Storage planning and I/O optimization
+- Performance monitoring
+
+### [bioinformatics-statistical-methods.md](bioinformatics-statistical-methods.md)
+**Purpose**: Statistical approaches and best practices
+- Multiple testing correction methods
+- Differential expression analysis
+- Power analysis and sample size planning
+- Population genetics statistics
+- Common statistical pitfalls to avoid
+
 ## How These Are Used
 
 When you run the setup script, these documents are:

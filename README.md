@@ -49,6 +49,9 @@ Complete instructions for maximizing Claude Code effectiveness (legacy approach)
 ### Bioinformatics Context Documents (Auto-loaded after setup)
 - [**Bioinformatics Context Reference**](context/bioinformatics-context-reference-guide.md) - File formats, tools, quality standards
 - [**Bioinformatics One-Liners**](context/bioinformatics-one-liners.md) - Command examples and patterns
+- [**Troubleshooting Guide**](context/bioinformatics-troubleshooting-guide.md) - Error diagnosis and problem-solving
+- [**Computational Resources**](context/bioinformatics-computational-resources.md) - Resource planning and optimization  
+- [**Statistical Methods**](context/bioinformatics-statistical-methods.md) - Statistical approaches and best practices
 
 ### General Claude Code Documentation
 - [**Claude Code Best Practices**](claude-code-best-practices.md) - General usage patterns and advanced techniques (not bioinformatics-specific)

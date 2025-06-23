@@ -129,6 +129,9 @@ download_context() {
         # Copy bioinformatics-specific context documents
         cp temp_repo/context/bioinformatics-context-reference-guide.md context/
         cp temp_repo/context/bioinformatics-one-liners.md context/
+        cp temp_repo/context/bioinformatics-troubleshooting-guide.md context/
+        cp temp_repo/context/bioinformatics-computational-resources.md context/
+        cp temp_repo/context/bioinformatics-statistical-methods.md context/
         
         # Copy project templates
         cp -r temp_repo/project-templates/* templates/
@@ -146,9 +149,15 @@ download_context() {
         if [[ "$DOWNLOADER" == "curl" ]]; then
             curl -fsSL "$BASE_URL/context/bioinformatics-context-reference-guide.md" -o context/bioinformatics-context-reference-guide.md
             curl -fsSL "$BASE_URL/context/bioinformatics-one-liners.md" -o context/bioinformatics-one-liners.md
+            curl -fsSL "$BASE_URL/context/bioinformatics-troubleshooting-guide.md" -o context/bioinformatics-troubleshooting-guide.md
+            curl -fsSL "$BASE_URL/context/bioinformatics-computational-resources.md" -o context/bioinformatics-computational-resources.md
+            curl -fsSL "$BASE_URL/context/bioinformatics-statistical-methods.md" -o context/bioinformatics-statistical-methods.md
         else
             wget -q "$BASE_URL/context/bioinformatics-context-reference-guide.md" -O context/bioinformatics-context-reference-guide.md
             wget -q "$BASE_URL/context/bioinformatics-one-liners.md" -O context/bioinformatics-one-liners.md
+            wget -q "$BASE_URL/context/bioinformatics-troubleshooting-guide.md" -O context/bioinformatics-troubleshooting-guide.md
+            wget -q "$BASE_URL/context/bioinformatics-computational-resources.md" -O context/bioinformatics-computational-resources.md
+            wget -q "$BASE_URL/context/bioinformatics-statistical-methods.md" -O context/bioinformatics-statistical-methods.md
         fi
         
         # Save version info
@@ -395,6 +404,9 @@ verify_installation() {
     local context_files=(
         "$CONTEXT_DIR/context/bioinformatics-context-reference-guide.md"
         "$CONTEXT_DIR/context/bioinformatics-one-liners.md"
+        "$CONTEXT_DIR/context/bioinformatics-troubleshooting-guide.md"
+        "$CONTEXT_DIR/context/bioinformatics-computational-resources.md"
+        "$CONTEXT_DIR/context/bioinformatics-statistical-methods.md"
     )
     
     for file in "${context_files[@]}"; do
