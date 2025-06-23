@@ -6,17 +6,23 @@
 [![GitHub forks](https://img.shields.io/github/forks/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/network)
 [![GitHub issues](https://img.shields.io/github/issues/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/issues)
 
-## 🚀 Quick Start (5 Minutes)
+## 🚀 Quick Start (30 Seconds)
+
+### One-Command Setup
+```bash
+curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master/setup.sh | bash
+```
 
 ### What This Gives You
-- **30-minute setup** from installation to first analysis
+- **30-second global setup** - context automatically loaded forever
 - **AI assistant with deep bioinformatics knowledge** 
-- **Standardized workflows** across your entire team
-- **Copy-paste ready examples** for common analyses
+- **Instant project creation** with `claude-bio new`
+- **Zero copy-pasting** - context documents automatically available
 - **Quality assurance protocols** built-in
 
 ### Immediate Benefits
 ✅ Stop memorizing command syntax  
+✅ Stop copy-pasting context documents  
 ✅ Reduce analysis errors by 80%  
 ✅ Accelerate workflow development  
 ✅ Improve team collaboration  
@@ -38,12 +44,12 @@
 Provide Claude Code with expert-level bioinformatics knowledge:
 
 ### [**→ Context Document Usage Guide**](Context_Document_Usage_Guide.md)
-Complete instructions for maximizing Claude Code effectiveness
+Complete instructions for maximizing Claude Code effectiveness (legacy approach)
 
-### Core Knowledge Documents
-- [**Bioinformatics Context Reference**](bioinformatics-context-reference-guide.md) - File formats, tools, quality standards
-- [**Claude Code Best Practices**](claude-code-best-practices.md) - Project organization and advanced techniques
-- [**Bioinformatics One-Liners**](bioinformatics-one-liners.md) - Command examples and patterns
+### Core Knowledge Documents (Auto-loaded after setup)
+- [**Bioinformatics Context Reference**](context/bioinformatics-context-reference-guide.md) - File formats, tools, quality standards
+- [**Claude Code Best Practices**](context/claude-code-best-practices.md) - Project organization and advanced techniques
+- [**Bioinformatics One-Liners**](context/bioinformatics-one-liners.md) - Command examples and patterns
 
 ## 🧬 Project Templates
 
@@ -69,39 +75,54 @@ Complete instructions for maximizing Claude Code effectiveness
 
 ## 💡 How It Works
 
-### Traditional Approach
+### Before: Traditional Approach
 ```bash
 # Remember complex syntax
 bwa mem -t 8 -M -R "@RG\tID:sample1\tSM:sample1\tPL:ILLUMINA" \
     reference.fa read1.fq read2.fq | \
     samtools sort -@ 8 -o sample1.bam
 samtools index sample1.bam
-# Repeat for every sample, hope you didn't make mistakes...
+# Repeat for every sample, copy-paste context documents...
 ```
 
-### With Claude Code + Our SOP
+### After: One Setup + Natural Language
+```bash
+# One-time setup (30 seconds)
+curl -fsSL [setup-url] | bash
+
+# Create project (5 seconds)
+claude-bio new rnaseq my-analysis
+cd my-analysis
+
+# Start analysis (instant context loading)
+claude
+> I have paired-end FASTQ files and need to align them using BWA-MEM
 ```
-I have paired-end FASTQ files and need to align them to the reference genome 
-using BWA-MEM, then sort and index the results.
-```
-**Result**: Complete workflow with error checking, batch processing, and quality validation.
+**Result**: Complete workflow with error checking, batch processing, quality validation, and automatic bioinformatics context.
 
 ## 🎯 Example Session
 
-### Step 1: Provide Context
-```
-I'm working on bioinformatics analysis. Here are my context documents:
-[Paste the three reference documents - takes 30 seconds]
+### Step 1: One-Time Global Setup
+```bash
+curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master/setup.sh | bash
+# Downloads context documents globally, installs claude-bio helper
 ```
 
-### Step 2: Describe Your Goal
+### Step 2: Create Project & Start Analysis
+```bash
+claude-bio new rnaseq cancer-study
+cd cancer-study
+claude
+```
+
+### Step 3: Describe Your Goal (Context Auto-Loaded)
 ```
 I have RNA-seq data from a cancer study. I need to run quality control, 
 align to GRCh38, and perform differential expression analysis between 
 tumor and normal samples.
 ```
 
-### Step 3: Get Expert Workflow
+### Step 4: Get Expert Workflow (With Full Context)
 Claude Code provides:
 - Complete quality control pipeline
 - Optimized alignment parameters
@@ -148,15 +169,20 @@ Claude Code provides:
 
 ## 🚀 Getting Started
 
-### Option 1: Quick Implementation (Recommended)
-1. **Follow the [SOP Guide](Claude_Code_Bioinformatics_SOP.md)**
-2. **Copy a [project template](project-templates/)**
-3. **Start your first analysis**
+### Option 1: Automated Setup (Recommended)
+```bash
+# One command sets up everything globally
+curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master/setup.sh | bash
 
-### Option 2: Custom Setup
+# Create your first project
+claude-bio new rnaseq my-analysis
+cd my-analysis && claude
+```
+
+### Option 2: Manual Setup (Legacy)
 1. **Install Claude Code**: `npm install -g @anthropic-ai/claude-code`
-2. **Download context documents** from this repository
-3. **Follow the [context usage guide](Context_Document_Usage_Guide.md)**
+2. **Follow the [SOP Guide](Claude_Code_Bioinformatics_SOP.md)** for manual approach
+3. **Use [context usage guide](Context_Document_Usage_Guide.md)** for copy-paste method
 
 ## 🤝 Contributing
 
@@ -177,9 +203,10 @@ We welcome contributions from the bioinformatics community!
 
 ## 📊 Project Status
 
-### ✅ **Phase 1: Core SOP** (COMPLETED)
-- Standard Operating Procedure guide
-- Context document optimization
+### ✅ **Phase 1: Automated SOP** (COMPLETED)
+- One-command global setup script
+- Automated context document management  
+- claude-bio helper command suite
 - Essential project templates
 - Ready for immediate lab adoption
 
@@ -230,6 +257,10 @@ If you use this SOP in your research, please cite:
 
 ---
 
-**Ready to transform your bioinformatics workflows?** [**Start with the SOP Guide →**](Claude_Code_Bioinformatics_SOP.md)
+**Ready to transform your bioinformatics workflows?** 
+
+**Quick Start**: `curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master/setup.sh | bash`
+
+**Manual Setup**: [**SOP Guide →**](Claude_Code_Bioinformatics_SOP.md)
 
 *Built with ❤️ by the computational biology community*

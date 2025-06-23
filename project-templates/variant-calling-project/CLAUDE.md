@@ -53,18 +53,21 @@ Comprehensive variant calling pipeline following GATK best practices for whole g
 
 ## Essential Commands for Claude Code
 
-When starting analysis sessions, provide context:
+**Context is automatically loaded!** When you start Claude Code in this project directory, the bioinformatics context documents are automatically available.
+
+When starting analysis sessions, simply describe your goal:
 ```
-I'm working on variant calling analysis following GATK best practices. Here are my context documents:
-[Provide all three bioinformatics context documents]
+I'm working on variant calling analysis following GATK best practices.
 
 Project details:
 - Species: [your species]
-- Reference: [your reference genome version]
+- Reference: [your reference genome version] 
 - Data type: [WGS/WES]
 - Samples: [your sample information]
 - Goal: [germline/somatic variant detection]
 ```
+
+The bioinformatics context (file formats, tools, GATK best practices, quality standards) is already loaded from your global configuration.
 
 ## Custom Commands Available
 

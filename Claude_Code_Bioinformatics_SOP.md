@@ -4,43 +4,41 @@
 
 This SOP provides a standardized approach for using Claude Code to enhance bioinformatics workflows. By following these procedures, you'll leverage AI assistance while maintaining scientific rigor and reproducibility.
 
-**Time to implement**: 30 minutes  
-**Immediate benefits**: Faster analysis setup, fewer errors, consistent workflows
+**Time to implement**: 30 seconds (automated setup)  
+**Immediate benefits**: Zero-friction context loading, instant project creation, consistent workflows
 
 ---
 
-## 🚀 Quick Start Checklist (15 minutes)
+## 🚀 Quick Start Checklist (30 seconds)
 
-### Step 1: Install and Configure Claude Code
+### Automated Setup (Recommended)
+```bash
+# One command installs everything globally
+curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master/setup.sh | bash
+
+# Create your first project
+claude-bio new rnaseq my-analysis
+cd my-analysis
+
+# Start Claude with automatic context loading
+claude
+```
+
+✅ **Setup Complete** - Context documents automatically loaded, ready for analysis!
+
+### Manual Setup (Legacy Approach)
+If you prefer manual setup or the automated script doesn't work:
+
 ```bash
 # Install Claude Code
 npm install -g @anthropic-ai/claude-code
 
-# Authenticate (follow prompts)
-claude
-
-# Essential setup commands
-/terminal-setup    # Better terminal integration
-/ide              # Connect to VS Code/IDE
-```
-
-### Step 2: Download Context Documents
-```bash
-# Clone this repository for context documents
+# Clone this repository
 git clone https://github.com/shandley/claude-for-bioinformatics.git
 cd claude-for-bioinformatics
+
+# Follow manual context loading procedures below
 ```
-
-### Step 3: Test Installation
-```bash
-# Start Claude Code in your bioinformatics project directory
-claude
-
-# Test with simple command
-echo "Test successful - Claude Code is ready for bioinformatics!"
-```
-
-✅ **Setup Complete** - You're ready to enhance your bioinformatics workflows!
 
 ---
 
@@ -48,9 +46,16 @@ echo "Test successful - Claude Code is ready for bioinformatics!"
 
 ### Every Analysis Session Protocol
 
-#### 1. **Start Session with Context** (Required)
-At the beginning of each Claude Code session:
+#### 1. **Context Automatically Loaded** (After Setup)
+With the automated setup, bioinformatics context is automatically available!
 
+**Automated Approach (Recommended):**
+- Context documents are automatically loaded when you start Claude in any project
+- No copy-pasting required
+- Always up-to-date with latest versions
+
+**Manual Approach (Legacy):**
+If using manual setup, at the beginning of each Claude Code session:
 ```
 I'm working on bioinformatics analysis. Let me provide you with domain-specific context documents to help you understand the tools, file formats, and best practices.
 

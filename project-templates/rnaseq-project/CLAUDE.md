@@ -48,17 +48,20 @@ Comprehensive RNA-seq analysis pipeline for differential expression analysis, in
 
 ## Essential Commands for Claude Code
 
-When starting analysis sessions, provide context:
+**Context is automatically loaded!** When you start Claude Code in this project directory, the bioinformatics context documents are automatically available.
+
+When starting analysis sessions, simply describe your goal:
 ```
-I'm working on RNA-seq differential expression analysis. Here are my context documents:
-[Provide all three bioinformatics context documents]
+I'm working on RNA-seq differential expression analysis.
 
 Project details:
-- Species: [your species]
+- Species: [your species] 
 - Reference: [your reference genome]
 - Samples: [your sample information]
 - Goal: [your research question]
 ```
+
+The bioinformatics context (file formats, tools, quality standards, best practices) is already loaded from your global configuration.
 
 ## Custom Commands Available
 

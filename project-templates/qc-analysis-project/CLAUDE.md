@@ -56,17 +56,20 @@ Comprehensive quality control workflow for bioinformatics data, including sequen
 
 ## Essential Commands for Claude Code
 
-When starting QC sessions, provide context:
+**Context is automatically loaded!** When you start Claude Code in this project directory, the bioinformatics context documents are automatically available.
+
+When starting QC sessions, simply describe your requirements:
 ```
-I'm performing quality control analysis on [data type] sequencing data. Here are my context documents:
-[Provide all three bioinformatics context documents]
+I'm performing quality control analysis on [data type] sequencing data.
 
 QC Requirements:
 - Data type: [your data type]
-- Quality standards: [your thresholds]
+- Quality standards: [your thresholds] 
 - Expected metrics: [coverage, quality, etc.]
 - Critical factors: [study-specific considerations]
 ```
+
+The bioinformatics context (file formats, quality standards, QC tools, best practices) is already loaded from your global configuration.
 
 ## Custom Commands Available
 
