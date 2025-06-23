@@ -7,6 +7,16 @@ This SOP provides a standardized approach for using Claude Code to enhance bioin
 **Time to implement**: Minimal setup time with automated script  
 **Key benefits**: Automated context loading, structured project creation, consistent workflows
 
+## ⚠️ Prerequisites
+
+### [**→ Claude Code Best Practices**](claude-code-best-practices.md) - **REQUIRED READING**
+**Before implementing this bioinformatics SOP, you must understand Claude Code basics:**
+- Installation and initial setup procedures
+- Project organization and CLAUDE.md fundamentals  
+- Essential commands and configuration
+- General usage patterns and team collaboration
+- **This foundation is essential for successful bioinformatics implementation**
+
 ---
 
 ## 🚀 Quick Start Checklist

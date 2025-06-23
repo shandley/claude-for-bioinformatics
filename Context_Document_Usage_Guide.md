@@ -6,6 +6,16 @@ This guide explains how to effectively provide the bioinformatics context docume
 
 **Note**: With the automated setup, this manual approach is no longer needed! This guide is maintained for legacy/manual setups.
 
+## ⚠️ Prerequisites
+
+### [**→ Claude Code Best Practices**](claude-code-best-practices.md) - **READ FIRST**
+**Before using bioinformatics context documents, learn Claude Code fundamentals:**
+- Basic installation and setup
+- Project organization principles
+- CLAUDE.md file creation and usage
+- Essential commands and workflows
+- **These basics are required for effective bioinformatics usage**
+
 ---
 
 ## 📋 **Quick Reference**

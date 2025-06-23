@@ -28,21 +28,21 @@ curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/
 ✅ Team collaboration tools  
 ✅ Reproducible analysis documentation  
 
-## 📖 Essential Reading
+## ⚠️ Prerequisites
 
-### [**→ Claude Code Best Practices**](claude-code-best-practices.md) - Start Here First
-**Learn general Claude Code usage before bioinformatics-specific workflows**
-- Project organization and CLAUDE.md setup
-- Essential commands and configuration
+### [**→ Claude Code Best Practices**](claude-code-best-practices.md) - **READ THIS FIRST**
+**Essential foundation before using bioinformatics features:**
+- Claude Code installation and basic setup
+- Project organization and CLAUDE.md fundamentals
+- Essential commands and configuration options
 - Team collaboration patterns
-- Advanced techniques and optimization
-- **Recommended**: Read this first to understand Claude Code fundamentals
+- **⚡ Start here if you're new to Claude Code**
 
-## 📋 Complete Standard Operating Procedure
+## 📋 Bioinformatics Standard Operating Procedure
 
 ### [**→ Claude Code Bioinformatics SOP**](Claude_Code_Bioinformatics_SOP.md)
 
-**Ready-to-implement workflow guide** that your lab can adopt today. Includes:
+**Ready-to-implement bioinformatics workflow guide** (requires Claude Code setup above). Includes:
 - Installation and setup checklist
 - Session workflow protocols  
 - Safety and validation procedures
