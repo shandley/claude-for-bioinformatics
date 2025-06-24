@@ -2,10 +2,22 @@
 
 **Learn bioinformatics with AI assistance - Start analyzing data in 30 seconds!**
 
-## 🚀 **NEW: Zero-Installation Learning**
+## 🚀 **NEW: Interactive Cloud Learning**
+
+### 🎮 **Option A: Interactive GitHub Codespaces (Recommended)**
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/shandley/claude-for-bioinformatics)
+
+**👆 Click for authentic interactive learning - type real commands, have real AI conversations!**
+
+✨ **Real development environment** with VS Code, terminal, and all bioinformatics tools  
+✨ **Actual Claude Code conversations** - you type, Claude responds, you learn  
+✨ **Professional workflow experience** - exactly how research is done  
+✨ **Complete project development** from setup to publication-ready results  
+
+### 📱 **Option B: Zero-Installation Tutorial**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shandley/claude-for-bioinformatics/blob/master/guided-tutorials/01-first-rnaseq-analysis/Module_1_1_RNA_seq_Analysis.ipynb)
 
-**👆 Click to start your first RNA-seq analysis right now - no software installation required!**
+**Quick demonstration of bioinformatics tools and concepts**
 
 ✨ **Professional bioinformatics tools (FastQC, MultiQC) in your browser**  
 ✨ **Real research data and publication-quality results**  
@@ -20,19 +32,29 @@
 
 ## 📚 Choose Your Learning Path
 
-### 🎯 **Option 1: Instant Learning (Recommended for Beginners)**
+### 🎯 **Option 1: Interactive Learning (Recommended)**
 
-**Start analyzing RNA-seq data in your browser immediately:**
+**Experience authentic bioinformatics workflows with AI assistance:**
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/shandley/claude-for-bioinformatics)
+
+- 🎮 **Real interaction** - Type commands, have conversations with Claude Code
+- 🧬 **Complete environment** - VS Code, terminal, all bioinformatics tools installed
+- 📊 **Authentic workflows** - Learn exactly how research is conducted
+- 💬 **AI mentorship** - Claude Code guides you through complex analyses
+- 🚀 **Professional skills** - Build real competencies for research careers
+
+**Perfect for**: Serious learners, students, researchers wanting authentic experience
+
+#### Alternative: Quick Demo
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shandley/claude-for-bioinformatics/blob/master/guided-tutorials/01-first-rnaseq-analysis/Module_1_1_RNA_seq_Analysis.ipynb)
 
-- ⚡ **30 seconds to start** - No downloads, no installation, no setup
-- 🧬 **Real bioinformatics tools** - FastQC, MultiQC, conda environments
+- ⚡ **30 seconds to start** - No downloads, no installation, no setup  
 - 📊 **Professional results** - Generate publication-quality QC reports
-- 💾 **Take results with you** - Download everything for your research
-- 🎓 **Learn by doing** - See exactly how tools are installed and used
+- 🎓 **Concept demonstration** - See exactly how tools work
 
-**Perfect for**: First-time users, students, anyone wanting immediate hands-on experience
+**Perfect for**: Quick exploration, concept demonstration
 
 ### 💻 **Option 2: Local Installation (For Ongoing Research)**
 
@@ -77,9 +99,15 @@ curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/
 3. **[Complete Learning Roadmap](ENHANCED_EDUCATIONAL_PLAN.md)** - Progressive skill development plan
 
 ### 🚀 **Quick Access**
-- **Instant Tutorial**: Click the Colab badges above for immediate hands-on learning
+- **Interactive Learning**: Click the Codespaces badge for authentic bioinformatics experience
+- **Quick Demo**: Click the Colab badge for immediate tool demonstration
 - **Production Setup**: Use the installation command for ongoing research workflows
 - **Advanced Learning**: Explore project templates and comprehensive guides below
+
+### 🎮 **Interactive Tutorials (Codespaces)**
+- **[Tutorial 1: First RNA-seq Analysis](interactive-tutorials/01-interactive-rnaseq/README.md)** - Learn quality control through real conversations
+- **[Tutorial 2: Variant Calling](interactive-tutorials/02-interactive-variants/README.md)** - Master GATK workflows with AI guidance  
+- **[Tutorial 3: Custom Workflows](interactive-tutorials/03-custom-workflows/README.md)** - Build complex multi-omics pipelines
 
 ## 🏆 What You'll Achieve
 

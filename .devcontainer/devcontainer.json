@@ -1,0 +1,53 @@
+{
+  "name": "Claude Code for Bioinformatics - Interactive Learning",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    },
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  "onCreateCommand": ".devcontainer/setup.sh",
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode.vscode-json",
+        "redhat.vscode-yaml",
+        "ms-vscode.theme-monokai",
+        "ms-toolsai.jupyter",
+        "ms-vscode.live-server"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.wordWrap": "on",
+        "editor.fontSize": 14,
+        "terminal.integrated.fontSize": 14,
+        "workbench.colorTheme": "Monokai"
+      }
+    }
+  },
+
+  "remoteUser": "vscode",
+  
+  "postCreateCommand": "echo '🎉 Claude Code Bioinformatics Environment Ready! Open the Interactive Tutorial to get started.'",
+  
+  "forwardPorts": [3000, 8000, 8080],
+  
+  "mounts": [
+    "source=claude-bioinformatics-data,target=/workspace/data,type=volume"
+  ],
+
+  "containerEnv": {
+    "WORKSPACE_ROOT": "/workspaces/claude-for-bioinformatics",
+    "BIOINFORMATICS_TUTORIAL_MODE": "interactive"
+  }
+}
