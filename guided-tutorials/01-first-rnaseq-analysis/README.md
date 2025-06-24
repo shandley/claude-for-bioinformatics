@@ -1,5 +1,17 @@
 # Module 1.1: Your First RNA-seq Analysis with Claude Code
 
+## 🚀 Two Ways to Learn
+
+### ⚡ **Option 1: Zero-Installation (Recommended for Beginners)**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shandley/claude-for-bioinformatics/blob/master/guided-tutorials/01-first-rnaseq-analysis/Module_1_1_RNA_seq_Analysis.ipynb)
+
+**Start learning immediately** - No software installation required! **[Full details →](README_Colab.md)**
+
+### 💻 **Option 2: Local Installation (This Guide)**
+**Complete tutorial below** for setting up on your own computer.
+
+---
+
 ## Learning Objectives
 By the end of this tutorial, you will:
 - ✅ Successfully set up Claude Code for bioinformatics

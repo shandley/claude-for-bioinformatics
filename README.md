@@ -42,8 +42,13 @@ curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/
 
 ### 🎯 **New to Claude Code?** Start Here:
 1. **[Claude Code Best Practices](claude-code-best-practices.md)** - Essential foundation
-2. **[First RNA-seq Analysis Tutorial](guided-tutorials/01-first-rnaseq-analysis/)** - Hands-on learning
-3. **[Enhanced Educational Plan](ENHANCED_EDUCATIONAL_PLAN.md)** - Complete learning roadmap
+2. **🚀 [Zero-Installation Tutorial](guided-tutorials/01-first-rnaseq-analysis/README_Colab.md)** - Start learning immediately in Google Colab
+3. **[Complete Learning Roadmap](ENHANCED_EDUCATIONAL_PLAN.md)** - Progressive skill development
+
+### ⚡ **Want to Start Learning Right Now?**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shandley/claude-for-bioinformatics/blob/master/guided-tutorials/01-first-rnaseq-analysis/Module_1_1_RNA_seq_Analysis.ipynb)
+
+**↑ Click to start your first RNA-seq analysis in 30 seconds (no software installation required!)**
 
 ### 📋 **Ready to Implement?** Use Our SOP:
 **[→ Claude Code Bioinformatics SOP](Claude_Code_Bioinformatics_SOP.md)**
