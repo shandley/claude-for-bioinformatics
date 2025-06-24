@@ -1,26 +1,57 @@
 # Claude Code for Bioinformatics
 
-**Enhance your computational biology research with AI-assisted workflows**
+**Learn bioinformatics with AI assistance - Start analyzing data in 30 seconds!**
+
+## 🚀 **NEW: Zero-Installation Learning**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shandley/claude-for-bioinformatics/blob/master/guided-tutorials/01-first-rnaseq-analysis/Module_1_1_RNA_seq_Analysis.ipynb)
+
+**👆 Click to start your first RNA-seq analysis right now - no software installation required!**
+
+✨ **Professional bioinformatics tools (FastQC, MultiQC) in your browser**  
+✨ **Real research data and publication-quality results**  
+✨ **Complete tutorial with step-by-step guidance**  
+✨ **Download results to continue on your computer**
 
 [![GitHub stars](https://img.shields.io/github/stars/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/network)
 [![GitHub issues](https://img.shields.io/github/issues/shandley/claude-for-bioinformatics.svg)](https://github.com/shandley/claude-for-bioinformatics/issues)
 
-## 🚀 Quick Start
+---
 
-### One-Command Setup
+## 📚 Choose Your Learning Path
+
+### 🎯 **Option 1: Instant Learning (Recommended for Beginners)**
+
+**Start analyzing RNA-seq data in your browser immediately:**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shandley/claude-for-bioinformatics/blob/master/guided-tutorials/01-first-rnaseq-analysis/Module_1_1_RNA_seq_Analysis.ipynb)
+
+- ⚡ **30 seconds to start** - No downloads, no installation, no setup
+- 🧬 **Real bioinformatics tools** - FastQC, MultiQC, conda environments
+- 📊 **Professional results** - Generate publication-quality QC reports
+- 💾 **Take results with you** - Download everything for your research
+- 🎓 **Learn by doing** - See exactly how tools are installed and used
+
+**Perfect for**: First-time users, students, anyone wanting immediate hands-on experience
+
+### 💻 **Option 2: Local Installation (For Ongoing Research)**
+
+**Set up Claude Code on your computer for daily research workflows:**
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/master/setup.sh | bash
 ```
 
-### What This Gives You
+**What you get:**
 - **Automated global setup** - context automatically loaded in all projects
 - **AI assistant with bioinformatics domain knowledge** 
 - **Project creation tools** with `claude-bio new`
 - **Automated context loading** - no manual document copying required
 - **Quality assurance protocols** based on established field standards
 
-### Key Features
+**Perfect for**: Researchers ready to integrate Claude Code into daily workflows
+
+### 🎆 **Key Features (Both Options)**
 ✅ Natural language interface for complex bioinformatics commands  
 ✅ Automated context document management  
 ✅ Built-in quality control standards and best practices  
@@ -38,22 +69,38 @@ curl -fsSL https://raw.githubusercontent.com/shandley/claude-for-bioinformatics/
 - Team collaboration patterns
 - **⚡ Start here if you're new to Claude Code**
 
-## 📚 Learning Paths
+## 📖 Learning Resources
 
-### 🎯 **New to Claude Code?** Start Here:
-1. **[Claude Code Best Practices](claude-code-best-practices.md)** - Essential foundation
-2. **🚀 [Zero-Installation Tutorial](guided-tutorials/01-first-rnaseq-analysis/README_Colab.md)** - Start learning immediately in Google Colab
-3. **[Complete Learning Roadmap](ENHANCED_EDUCATIONAL_PLAN.md)** - Progressive skill development
+### 🕰️ **Learning Progression**
+1. **[Claude Code Best Practices](claude-code-best-practices.md)** - Essential foundation (read first)
+2. **[Zero-Installation Tutorial](guided-tutorials/01-first-rnaseq-analysis/README_Colab.md)** - Hands-on learning guide
+3. **[Complete Learning Roadmap](ENHANCED_EDUCATIONAL_PLAN.md)** - Progressive skill development plan
 
-### ⚡ **Want to Start Learning Right Now?**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shandley/claude-for-bioinformatics/blob/master/guided-tutorials/01-first-rnaseq-analysis/Module_1_1_RNA_seq_Analysis.ipynb)
+### 🚀 **Quick Access**
+- **Instant Tutorial**: Click the Colab badges above for immediate hands-on learning
+- **Production Setup**: Use the installation command for ongoing research workflows
+- **Advanced Learning**: Explore project templates and comprehensive guides below
 
-**↑ Click to start your first RNA-seq analysis in 30 seconds (no software installation required!)**
+## 🏆 What You'll Achieve
 
-### 📋 **Ready to Implement?** Use Our SOP:
-**[→ Claude Code Bioinformatics SOP](Claude_Code_Bioinformatics_SOP.md)**
+### 🔬 **In Your First 30 Minutes**
+- ✅ **Analyze real RNA-seq data** with professional bioinformatics tools
+- ✅ **Generate publication-quality reports** (FastQC and MultiQC)
+- ✅ **Learn quality control interpretation** with guided explanations
+- ✅ **Download results** to use in your research or presentations
+- ✅ **Understand AI-assisted workflows** for future bioinformatics projects
 
-**Production-ready workflow guide** for immediate lab adoption:
+### 📊 **Real Research Value**
+- **Sample Data**: 10,000 paired-end reads with realistic quality patterns
+- **Professional Tools**: Same software used in research labs worldwide
+- **Publication Ready**: Generate figures and reports suitable for papers
+- **Skills Transfer**: Apply techniques immediately to your own data
+
+## 📋 Production Workflows
+
+### [**→ Claude Code Bioinformatics SOP**](Claude_Code_Bioinformatics_SOP.md)
+
+**Production-ready workflow guide for research teams:**
 - Installation and setup checklist
 - Session workflow protocols  
 - Safety and validation procedures
