@@ -36,17 +36,21 @@ If not installed, follow the installation instructions in the prerequisites docu
 
 For this tutorial, we'll use a small, realistic RNA-seq dataset that processes quickly while teaching real concepts.
 
-### Download the Tutorial Dataset
+### Get the Tutorial Dataset
 ```bash
 # Create a workspace for this tutorial
 mkdir -p ~/bioinformatics-learning/first-rnaseq
 cd ~/bioinformatics-learning/first-rnaseq
 
-# Download sample FASTQ files (small subset for quick processing)
+# Copy sample FASTQ files from the tutorial repository
+# (If you cloned the repository, the files are already available)
+cp /path/to/claude-for-bioinformatics/guided-tutorials/01-first-rnaseq-analysis/sample-data/*.fastq.gz .
+
+# OR download directly from GitHub:
 curl -L -o sample_R1.fastq.gz "https://github.com/shandley/claude-for-bioinformatics/raw/master/guided-tutorials/01-first-rnaseq-analysis/sample-data/sample_R1.fastq.gz"
 curl -L -o sample_R2.fastq.gz "https://github.com/shandley/claude-for-bioinformatics/raw/master/guided-tutorials/01-first-rnaseq-analysis/sample-data/sample_R2.fastq.gz"
 
-# Verify downloads
+# Verify files are available
 ls -lh *.fastq.gz
 ```
 
@@ -95,11 +99,15 @@ first-rnaseq-tutorial/
 
 ### Move Your Data Into the Project
 ```bash
-# Copy the downloaded files to the raw data directory
+# Copy the tutorial files to the raw data directory
 cp ~/bioinformatics-learning/first-rnaseq/*.fastq.gz data/raw/
+
+# OR if you're working directly in the repository:
+cp ../sample-data/*.fastq.gz data/raw/
 
 # Verify the files are in place
 ls -lh data/raw/
+# Should show: sample_R1.fastq.gz (~758K) and sample_R2.fastq.gz (~811K)
 ```
 
 ---
